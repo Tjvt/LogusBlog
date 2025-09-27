@@ -1,3 +1,4 @@
+
 <x-layout>
 
     <div class="mt-8">
@@ -11,7 +12,7 @@
 
 
     <div class="grid lg:grid-cols-3 gap-8 mt-19"> {{-- last blog post--}}
-        <x-post-Card></x-post-Card>
+        <x-post-Card>{{ $body }}</x-post-Card>
         <x-post-Card></x-post-Card>
         <x-post-Card></x-post-Card>
     </div>
